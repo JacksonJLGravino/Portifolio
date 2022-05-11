@@ -16,7 +16,7 @@
 ## Preview
 
 <h2>
-  <img alt="Readme" title="Readme" src="projetos/portifolio.gif" />
+  <img alt="Readme" title="Readme" src="projetos/protifolio.gif" />
 </h2>
 
 ## Tecnologias usadas
