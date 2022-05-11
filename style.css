@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  padding: 2rem;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  max-width: 768px;
+  background: #ecf4ff;
+  border-radius: 1.25rem;
+  box-shadow: 0.375rem 0.375rem 0.375rem #0e1d2f;
+  color: #1c1c1c;
+  padding: 2rem;
+  min-width: 250px;
+  margin-inline: auto;
+}
+
+/*========== HEADER ==========*/
+
+.cabecalho {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'A B'
+    'C C';
+}
+
+.foto-perfil {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  grid-area: A;
+}
+
+.titulo {
+  grid-area: C;
+  margin-block: 1rem;
+  text-align: justify;
+}
+
+.titulo h2 {
+  font-size: 1.3rem;
+}
+
+.titulo h4 {
+  font-size: 1rem;
+  margin-block: 0.3rem;
+}
+
+.tema {
+  grid-area: B;
+  text-align: end;
+}
+
+.tema button {
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding: 0.1rem 0.1rem;
+  background: #ecf4ff;
+  border-radius: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/*========== PROJETOS ==========*/
+.projetos {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 1rem;
+}
+
+.projetos-titulos h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.projetos-item {
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.projetos-item a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+.projetos-item h4 {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.projetos-item span {
+  font-size: 0.7rem;
+}
+
+.gif-projeto {
+  height: 100%;
+  width: 100%;
+}
+
+.gif-projeto img {
+  width: 100%;
+  height: 100%;
+  max-width: 425px;
+  margin-bottom: 2rem;
+}
+
+/*========== MUDAR TEMA ==========*/
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .box {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+@media (min-width: 530px) {
+  .cabecalho {
+    grid-template-areas: 'A C B';
+    grid-template-columns: 7rem 1fr;
+  }
+
+  .foto-perfil {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .titulo {
+    margin-block: 0;
+  }
+
+  .tema button {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.3rem 0.3rem;
+    background: #ecf4ff;
+    border-radius: 100px;
+    border: 1px solid black;
+  }
+}
