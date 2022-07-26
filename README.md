@@ -2,11 +2,8 @@
 
 ## Sobre
 
-<p>Esse projeto foi feito para que eu pudesse mostrar meus trabalhos e outros projetos concluídos</p>
+<p>Esse é um modelo de site portfolio, para poder mostrar seus projetos</p>
 </br>
-<h3>Em construção....<h3>
-
-<p>Esse projeto ainda está em construção pois ele irá me acompanhar em meu crescimento como programador</p>
 
 ## Características
 
@@ -30,4 +27,4 @@
 
 ---
 
-Feito por Jackson Gravino
+Feito com ♥ by [Jackson Gravino](https://www.linkedin.com/in/jackson-gravino)
